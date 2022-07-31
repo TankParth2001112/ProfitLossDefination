@@ -1,0 +1,19 @@
+-> in the CSV data file column type 1 = Buy entry and type 2 = sell entry 
+
+-> Read csv file from unread folder(using script No need to create ui for file upload).
+
+-> Sorting data month and year wise.(Month Must be 3 character and year 2 character this is fixed)
+	 add validation on csv data if month or year not valid then CSV read operation throw proper error message, 
+	 month wise sorting not alphabetical sorting
+
+-> on each read operation add csv_file_name entry in database (use database only for file read entry not use for profit loss script)
+	 table name =  `csv_read_files fields`
+	 fields =   `file_name`,`read_date_time`
+
+-> if file is read then move to read folder,
+
+-> Create profit loss script,(Do not use database/file/ssession for the script).
+
+-> Print output in proper tabel. (like output.png)
+
+
